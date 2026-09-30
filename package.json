@@ -1,0 +1,9 @@
+{
+  "name": "@superinstance/tev-mesh",
+  "version": "0.1.0",
+  "description": "TEV1 bidirectional feedback mesh: decision-model loop with in-flight SGD over a shared glyph-tensor substrate (JS reference, zero-grad-disciplined)",
+  "type": "module",
+  "main": "src/mesh.mjs",
+  "scripts": { "test": "node --test test/mesh.test.mjs" },
+  "license": "MIT"
+}

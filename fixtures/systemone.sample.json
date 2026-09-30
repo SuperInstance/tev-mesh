@@ -1,0 +1,17 @@
+{
+  "_honest_mark": "SYNTHETIC playback fixture in the shape of Ollama /v1/systemone output (tev1:0.8b); NOT model output. Live mode required for real decisions.",
+  "model": "tev1:0.8b",
+  "answers": {
+    "spatial_drift": {
+      "type": "choice",
+      "choice": "recompile_region",
+      "probabilities": { "hold": 0.18, "recompile_region": 0.55, "full_reset": 0.27 },
+      "confidence": 0.74
+    },
+    "novelty_gate": {
+      "type": "noul",
+      "noul": 0.31,
+      "confidence": 0.62
+    }
+  }
+}
